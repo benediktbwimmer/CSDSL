@@ -56,6 +56,8 @@ Using Context-Specific Domain-Specific Languages (CSDSLs) with ChatGPT is a stre
 
 3. **Feed the CSDSL Back into ChatGPT**: Finally, copy the outputted CSDSL back into ChatGPT and enjoy the result. This step concludes the process by executing the CSDSL and generating the output. The result will align closely with your expectations, showcasing the power of CSDSLs in making language model outputs more relevant, precise, and useful.
 
+![viz](usage.png)
+
 ## Example
 
 Let's look at an example of this process with the 'Theory and Development' section of the draft of a future CSDSL paper.
