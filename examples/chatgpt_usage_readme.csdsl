@@ -1,0 +1,10 @@
+<PAPER_SECTION output_format="markdown code block">
+    <DEFINE_SECTION_TITLE>Usage with ChatGPT</DEFINE_SECTION_TITLE>
+    <DEFINE_SECTION_CONTENT>Write a detailed section on how to use CSDSLs with ChatGPT. The section should include the following steps:
+
+1. Copy the content of the full README.md into the chat to define CSDSLs and their usage. Explain why this step is necessary and how it helps to set up the language model for understanding and generating CSDSLs.
+2. Instruct the user to ask ChatGPT to construct a CSDSL which can be fed back into the chat and will yield the desired output. Clarify how this step contributes to specifying the exact requirements for the LLM.
+3. Describe the step of copying the outputted CSDSL back into ChatGPT and enjoying the result. Highlight the benefits of this approach.
+
+Finally, provide an example of this process using the creation of the 'Theory and Development' section of the paper as an instance. Show the initial request for the CSDSL, the CSDSL produced, and how it was used to generate the section content.</DEFINE_SECTION_CONTENT>
+</PAPER_SECTION>

@@ -1,0 +1,4 @@
+<PAPER_SECTION output_format="markdown code block">
+    <DEFINE_SECTION_TITLE>Introduction</DEFINE_SECTION_TITLE>
+    <DEFINE_SECTION_CONTENT>Write the introduction of the paper. The introduction should provide an overview of the current state of communication with Large Language Models (LLMs), the challenges faced in human-AI interaction, and introduce the concept of Context-Specific Domain-Specific Languages (CSDSLs) as a novel approach to enhance this communication and improve collaboration and problem-solving capabilities. Highlight the significance of this research in the field of AI.</DEFINE_SECTION_CONTENT>
+</PAPER_SECTION>
