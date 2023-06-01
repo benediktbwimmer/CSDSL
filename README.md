@@ -6,7 +6,6 @@ Authors: Benedikt Wimmer - LuftBlick OG, Austria (benedikt.wimmer@luftblick.at, 
 
 This white paper presents a comprehensive approach to implementing Context-Specific Domain Specific Languages (CSDSLs) in Large Language Models (LLMs). We propose a framework for developing, integrating, and using CSDSLs to enhance the communication between humans and LLMs, enabling more effective collaboration and problem-solving.
 
-...
 ## Powerful Examples of CSDSLs in Action<a name="powerful-examples"></a>
 
 1. **Two-Step Software Application Building**: Using CSDSLs, we can streamline the software development process into two main steps. First, the user formulates their top-level goal and either provides an initial CSDSL definition, or asks the LLM to craft one. The LLM then translates the top-level goal into an instance of the agreed-upon CSDSL, which can be an iterative and possibly interactive process. In the second step, the LLM takes the translated instructions with accurately defined context and perfect information density and abstraction level and uses them as input to generate a working program in a specific language.
