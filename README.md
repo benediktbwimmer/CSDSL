@@ -6,6 +6,38 @@ Authors: Benedikt Wimmer - LuftBlick OG, Austria (benedikt.wimmer@luftblick.at, 
 
 This white paper presents a comprehensive approach to implementing Context-Specific Domain Specific Languages (CSDSLs) in Large Language Models (LLMs). We propose a framework for developing, integrating, and using CSDSLs to enhance the communication between humans and LLMs, enabling more effective collaboration and problem-solving.
 
+## CSDSL definition<a name="csdsl-definition"></a>
+
+A CSDSL is a language that is optimized for a specific context and domain. It is designed to be used in conjunction with LLMs, thereby enhancing the communication with and effectiveness of these models. CSDSLs are defined by a set of rules that govern their syntax and semantics. These rules are designed to be as expressive as possible, while remaining concise and manageable. The goal is to create a language that is both human-readable and machine-understandable, thereby bridging the gap between human language and machine code.
+
+Here is the definition of CSDSLs, given as an instance of a CSDSL:
+
+```xml
+<AI_TRAINING_DEFINITION>
+    <DEFINE_CONCEPT NAME="Context-Specific Domain-Specific Languages (CSDSLs)">
+        <BRIEF_DEFINITION>CSDSLs are custom languages designed to enhance communication between humans and Large Language Models (LLMs) by improving context sensitivity, precision, and adaptability to specific domains.</BRIEF_DEFINITION>
+        <USAGE>
+            <STEP DESCRIPTION="Define CSDSLs: This involves providing a CSDSL definition to the LLM, setting up context-specific interactions."/>
+            <STEP DESCRIPTION="Construct a CSDSL with LLM: Ask the LLM to create a CSDSL instance that fits your needs."/>
+            <STEP DESCRIPTION="Execute the CSDSL: Feed the generated CSDSL back into the LLM to generate desired outputs, ensuring contextually accurate results."/>
+        </USAGE>
+        <EXAMPLE>
+            <CSDSL_EXAMPLE><![CDATA[
+                <!-- CSDSL for managing calendar events -->
+                <CALENDAR_MANAGEMENT>
+                <ADD_EVENT TITLE="Project Meeting" START="2023-04-01T14:00:00" END="2023-04-01T15:00:00" LOCATION="Conference Room"/>
+                <DELETE_EVENT TITLE="Weekly Review" DATE="2023-04-03"/>
+                <RESCHEDULE_EVENT TITLE="Lunch with John" NEW_START="2023-04-02T13:00:00" NEW_END="2023-04-02T14:00:00"/>
+                <GENERATE_API_CALLS LANGUAGE="Python" LIBRARY="google_calendar"/>
+                </CALENDAR_MANAGEMENT>
+            ]]></CSDSL_EXAMPLE>
+        </EXAMPLE>
+    </DEFINE_CONCEPT>
+</AI_TRAINING_DEFINITION>
+```
+
+Users can simply copy this self-contained definition into a LLM chat conversation and start using CSDSLs right away.
+
 ## Powerful Examples of CSDSLs in Action<a name="powerful-examples"></a>
 
 1. **Two-Step Software Application Building**: Using CSDSLs, we can streamline the software development process into two main steps. First, the user formulates their top-level goal and either provides an initial CSDSL definition, or asks the LLM to craft one. The LLM then translates the top-level goal into an instance of the agreed-upon CSDSL, which can be an iterative and possibly interactive process. In the second step, the LLM takes the translated instructions with accurately defined context and perfect information density and abstraction level and uses them as input to generate a working program in a specific language.
@@ -50,7 +82,7 @@ This white paper presents a comprehensive approach to implementing Context-Speci
 
 Using Context-Specific Domain-Specific Languages (CSDSLs) with ChatGPT is a streamlined process that can greatly enhance the communication and collaboration with the language model. Here, we will detail the steps you need to follow to start benefiting from this powerful approach.
 
-1. **Define CSDSLs and Their Usage**: Begin by copying the content of the full README.md into the chat. This step is critical as it sets up the understanding of the language model regarding CSDSLs and their usage. The language model needs this context to interpret your instructions correctly and generate responses that align with the CSDSL syntax and semantics. This initial setup forms the basis for all subsequent interactions using CSDSLs.
+1. **Define CSDSLs and Their Usage**: Begin by copying the self-contained [CSDSL definition](##-CSDSL-definition) into the chat. This step is critical as it sets up the understanding of the language model regarding CSDSLs and their usage. The language model needs this context to interpret your instructions correctly and generate responses that align with the CSDSL syntax and semantics. This initial setup forms the basis for all subsequent interactions using CSDSLs.
 
 2. **Construct a CSDSL with ChatGPT**: Next, you should ask ChatGPT to construct a CSDSL that can be fed back into the chat and will yield your desired output. This step is crucial as it allows you to specify the exact requirements for the language model, thus making the interactions more context-specific. ChatGPT can help you design the appropriate CSDSL based on your goals, taking into account the specific context and desired output format.
 
